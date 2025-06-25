@@ -26,7 +26,7 @@ pipeline {
 
         stage('Ejecutar contenedor') {
             steps {
-                sh 'docker run -d --name contenedor-prueba -p 8080:80 $IMAGE_NAME'
+                sh 'docker run -d --name contenedor-prueba -p 8081:80 $IMAGE_NAME'
             }
         }
     }
