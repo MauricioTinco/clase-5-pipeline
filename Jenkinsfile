@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clonar código') {
             steps {
-                git 'https://github.com/MauricioTinco/clase-5-pipeline.git'
+                git branch: 'main', url: 'https://github.com/MauricioTinco/clase-5-pipeline.git'
             }
         }
 
