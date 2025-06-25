@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta con Imagen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-body {
+            padding: 16px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .card-text {
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="/assets/logo.png" alt="Imagen de la tarjeta">
+        <div class="card-body">
+            <h2 class="card-title">Mi Tarjeta</h2>
+            <p class="card-text">Este es un ejemplo simple de una tarjeta con una imagen almacenada en la carpeta /assets.</p>
+        </div>
+    </div>
+
+</body>
+</html>
